@@ -10,4 +10,4 @@ async def f_index():
 async def f_indexT():
     return{"message": "Tools", "key" : "Привет!"}
 
-#new
+#new commit
