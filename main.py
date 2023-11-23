@@ -9,3 +9,5 @@ async def f_index():
 @app.get('/tools')
 async def f_indexT():
     return{"message": "Tools", "key" : "Привет!"}
+
+#new
