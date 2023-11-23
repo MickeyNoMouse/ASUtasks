@@ -3,11 +3,13 @@ from fastapi import FastAPI
 app = FastAPI()
 
 @app.get('/')
-async def f_index():
-    return{"message": "Hello!"}
+async def fio():
+    return{"FIO": "Cherevkov Mikhail Andreevich"}
+
+@app.get('/users')
+async def personal_info():
+    return{"phone number": "+79133661385", "email" : "mikhailcherevkov@gmail.com"}
 
 @app.get('/tools')
-async def f_indexT():
-    return{"message": "Tools", "key" : "Привет!"}
-
-#new commit
+async def skills():
+    return{"Навыки разработчика": "Змейка на Python"}
