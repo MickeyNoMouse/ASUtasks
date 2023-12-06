@@ -8,7 +8,7 @@ async def fio():
 
 @app.get('/users')
 async def personal_info():
-    return{"phone number": "+79133661385", "email" : "mikhailcherevkov@gmail.com"}
+    return{"phone number": "+79137777777", "email" : "mikhail@gmail.com"}
 
 @app.get('/tools')
 async def skills():
